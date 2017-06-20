@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,6 +64,13 @@
       <Project>{720729e9-b72c-4431-b5cf-dcaaff327d7d}</Project>
       <Name>SchoolModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SchoolViewModel\SchoolViewModel.csproj">
+      <Project>{3314E956-96D6-4895-BB2E-406DBC45C19F}</Project>
+      <Name>SchoolViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Help.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
