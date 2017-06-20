@@ -1,1 +1,8 @@
-﻿
+﻿Examples of available commands:
+show-all
+add-teacher --teachername="name1" --teachersurname="surname1" --teacherpatronymic="patronymic1"
+add-classroom --teachername="name1" --teachersurname="surname1" --classroomnumber="14a" --classroomname="math"
+edit-teacher-data --teachername="name1" --teachersurname="surname1" --teacherpatronymic="patronymic1" --classroomnumber="14a" --classroomname="math"
+edit-classroom-data --classroomnumber="14a" --classroomname="math"
+remove-teacher-and-classroom-data --teachername="name1" --teachersurname="surname1"
+remove-classroom-data --classroomnumber="14a"
